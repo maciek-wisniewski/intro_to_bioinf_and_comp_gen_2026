@@ -17,7 +17,12 @@ dependencies = [
     "py3dmol>=2.5.4",
     "rdkit>=2025.9.6",
     "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
     "torch>=2.10.0",
     "transformers>=5.2.0",
+    "umap-learn",
     "xgboost>=3.2.0",
 ]
+
+[tool.uv.sources]
+umap-learn = { git = "https://github.com/lmcinnes/umap.git" }
