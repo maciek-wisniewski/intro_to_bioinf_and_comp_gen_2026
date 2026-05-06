@@ -17,6 +17,7 @@ dependencies = [
     "openmm>=8.4.0.post2",
     "pandas>=3.0.1",
     "py3dmol>=2.5.4",
+    "pyranges>=0.1.4",
     "rdkit>=2025.9.6",
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",

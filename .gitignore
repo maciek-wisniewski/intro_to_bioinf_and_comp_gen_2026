@@ -10,5 +10,5 @@ wheels/
 .venv
 
 # lab outputs
-notebooks-solutions/lab_outputs/*.*
+notebooks-solutions/lab_outputs/*
 !notebooks-solutions/lab_outputs/.keep
