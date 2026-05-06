@@ -2,7 +2,7 @@
 
 _Wstęp do Bioinformatyki i Genomiki Obliczeniowej, 2026_
 
-**Maksymalna liczba punktów: 20 pkt**
+**Termin: 10.06 23:59. Maksymalna liczba punktów: 20 pkt**
 
 Celem zadania jest przeprowadzenie analizy danych Hi-C oraz integracja wyników z dodatkowymi danymi genomowymi.
 
