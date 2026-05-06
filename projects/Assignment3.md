@@ -17,8 +17,7 @@ https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63525
 
 Następnie:
 - Wczytaj dane przy użyciu wybranej biblioteki (np. `cooler`, `hic2cool`, `FAN-C`, `hic-straw`)
-- Zwizualizuj wybrany region genomowy (heatmapa kontaktów)
-- Krótko opisz obserwowane struktury
+- Zwizualizuj wybrany, ciekawy, region genomowy (heatmapa kontaktów)
 
 ---
 
@@ -60,9 +59,9 @@ Następnie:
 
 ## 5. (Opcjonalnie) Detekcja pętli chromatynowych
 
-Spróbuj zidentyfikować pętle chromosomowe:
+Spróbuj zidentyfikować pętle chromatynowe:
 - używając dostępnych narzędzi (np. `FAN-C`, HiCCUPS)
-- ..albo implementując własną metodę
+- ...albo implementując własną metodę
 
 Następnie:
 - Porównaj wyniki z danymi referencyjnymi (jeśli dostępne)
