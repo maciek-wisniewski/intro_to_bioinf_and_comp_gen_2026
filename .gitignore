@@ -12,3 +12,13 @@ wheels/
 # lab outputs
 notebooks-solutions/lab_outputs/*
 !notebooks-solutions/lab_outputs/.keep
+project1/
+project2/
+
+# Downloaded docking engine binaries (Vina / Smina)
+/bin/
+**/vina
+**/vina.exe
+**/smina
+**/smina.exe
+**/vina_bin

@@ -62,6 +62,41 @@ jupyter notebook
 jupyter lab
 ```
 
+## 🧬 Molecular Docking Lab
+
+The docking lab (`notebooks/docking_lab.ipynb`, solution in
+`notebooks-solutions/docking_lab-results.ipynb`) uses **AutoDock Vina** through
+**Biotite**. Vina is a command-line program, so you need its binary.
+
+Install the docking engine(s) once, from the repo — works on **Windows, Linux and
+macOS** (x86-64 and arm64/aarch64), downloading the right native binary into `./bin/`:
+
+```bash
+# AutoDock Vina (used by the notebook)
+uv run scripts/install_docking_tools.py
+
+# ...and optionally Smina as well (Linux/macOS only)
+uv run scripts/install_docking_tools.py --smina
+
+# ...and optionally PLIP for protein-ligand interaction profiling
+uv run scripts/install_docking_tools.py --plip
+```
+
+For the **PLIP interaction analysis** section the notebook also uses OpenBabel,
+which is installed cross-platform (Windows/Linux/macOS) via the `openbabel-wheel`
+dependency — just run `uv sync`. PLIP itself is fetched as source on first use
+(or via `--plip` above); PyMOL is **not** required.
+
+Without `uv`:
+
+```bash
+python scripts/install_docking_tools.py
+```
+
+The notebook's setup cell finds the binary automatically (on `PATH`, in `./bin`,
+or it downloads it as a fallback). Alternatively install Vina via conda:
+`conda install -c conda-forge vina`.
+
 ## 📁 Project Structure
 
 ```
